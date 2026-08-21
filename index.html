@@ -554,6 +554,15 @@ textarea.note-area{width:100%;border:1.5px solid var(--line);border-radius:3px;p
 .role-img{width:86px;height:86px;object-fit:contain;flex:0 0 auto;border-radius:10px;background:rgba(255,255,255,.45);border:1px solid var(--line);padding:4px;}
 .role-img.small{width:48px;height:48px;border-radius:8px;padding:2px;}
 
+
+.intro-section h3{display:flex;align-items:center;gap:8px;margin-top:26px;padding-top:22px;border-top:1.5px solid var(--line);}
+.intro-section h3:first-child{margin-top:0;padding-top:0;border-top:none;}
+.intro-section h3 .title-ico{font-size:20px;line-height:1;display:inline-flex;width:28px;height:28px;align-items:center;justify-content:center;background:rgba(255,255,255,.5);border:1px solid var(--line);border-radius:8px;}
+.intro-section p{margin:10px 0;}
+.intro-section ul{margin:12px 0 18px;padding-left:22px;background:rgba(255,255,255,.32);border:1px solid rgba(199,188,157,.55);border-radius:8px;padding-top:12px;padding-bottom:12px;}
+.intro-section li+li{margin-top:6px;}
+.intro-section{background:rgba(247,243,231,.62);border:1px solid var(--line);border-radius:12px;padding:24px 26px;box-shadow:0 1px 0 rgba(199,188,157,.7);}
+
 </style>
 
 <div id="app"></div>
@@ -1797,35 +1806,47 @@ function renderLanding(){
       <div class="eyebrow">資訊了解 · 國土箱談 switch 介紹</div>
       <h1 class="title-xl" style="font-size:26px;">國土箱談 Switch</h1>
       <div class="intro-section">
-        <h3>設計理念(一)──從「知道」到「參與」 <span class="tag">ORID回饋</span> <span class="tag">國土計畫參與</span></h3>
-        <p>《國土箱談 Switch》以「<b>培養未來國土治理參與者</b>」為核心理念，突破傳統知識講授的方式，透過<b>情境模擬與角色扮演</b>，讓學生從真實公共議題中理解國土規劃的意義。教材以地方發展案例為背景，讓學生分別扮演居民、農民、政府、開發單位、環保團體等不同利害關係人，透過討論、協商與決策，體驗公共政策形成過程中的多元觀點與價值衝突。</p>
-        <p>除此之外，教材結合 <b>ORID 引導式討論法</b>，引導學生��事件觀察（Objective）、感受反思（Reflective）、詮釋想法（Interpretive）、決定行動（Decisional）四階段進行回饋。整體而言，我們希望培養<b>理性思辨、同理溝通及公共參與能力</b>，使學生不只是認識國土計畫，更能理解其與日常生活及地方發展的關聯，建立成為未來公民參與者的能力。</p>
+        <h3><span class="title-ico">📘</span>面向高中課程的國土計畫課外教材</h3>
+        <p>《國土箱談 SWITCH》是一套面向高中加深加廣選修課程的國土計畫課外教材，並同步設計配套教案。</p>
+        <p>本教材協助教師延伸高中地理中都市、產業與區域發展等單元，引導學生認識臺灣空間發展議題與相關政策。</p>
 
-        <h3>設計理念(二)──「Switch」的設計概念 <span class="tag">情境模擬與角色扮演</span></h3>
-        <p>本教材以「Switch（切換）」作為核心概念，具有雙重意涵。</p>
-        <p>第一層是<b>角色切換（Role Switch）</b>。學生透過角色扮演站在不同利害關係人的立場思考，理解公共議題不存在唯一正確答案，而是需要透過溝通與協商尋求共識。</p>
-        <p>第二層是<b>議題切換（Issue Switch）</b>。教材採模組化設計，可依不同地方特色及時事議題更換議題包，例如農地利用、再生能源、防災、都市更新、生態保育等，使教材能持續更新，提升課堂彈性與長期使用價值。</p>
-        <p>透過角色切換、議題切換與觀點切換，讓學生從被動接受知識，轉變為主動思考公共議題的參與者，體現國土計畫「<b>以人為本</b>」的核心精神。</p>
+        <h3><span class="title-ico">💡</span>為什麼需要這套教材？ <span class="tag">社會溝通</span> <span class="tag">未來公民</span></h3>
+        <p>國土計畫深刻影響產業發展、環境保育、土地使用與地方生活。但對多數民眾而言，國土計畫仍然相對陌生。</p>
+        <p>若缺乏基礎理解，公民參與也難以真正展開。</p>
+        <p>因此，本作品秉持「國土計畫社會溝通應分眾設計」的理念，聚焦高中生這一類未來公民參與的重要群體。</p>
+        <p>我們從參與階梯中的「告知」層次著手，設計適合高中生學習階段與生活經驗的教材。</p>
 
-        <h3>設計理念(三)──從個人學習到公民串聯 <span class="tag">公民串聯</span></h3>
-        <p>教材透過情境模擬與角色討論，使學生在理解不同利害關係人觀點的同時，也能將自身對地方發展的想法帶回家庭與朋友圈，與親友分享課程中的討論內容與所接觸的國土議題。例如，學生可能進一步與家人討論居住環境、土地利用或地方發展等相關議題，使國土計畫<b>從課堂學習延伸至生活對話之中</b>。</p>
-        <p>此外，教材結合線上交流平台，建立跨校、跨地域的議題討論空間，讓不同場域中參與相同議題的學生能分享討論成果、交流不同觀點，形成交流網絡。透過「<b>一人學習、多人分享、社會串聯</b>」的擴散模式，使國土計畫不再侷限於專業領域，而能逐漸成為青年可理解、可討論並願意參與的公共議題。</p>
-
-        <h3>目標群體、產品定位</h3>
+        <h3><span class="title-ico">🔄</span>SWITCH：在不同角色觀點間轉換 <span class="tag">角色扮演</span> <span class="tag">分組討論</span></h3>
+        <p>教材以<b>角色扮演、分組討論與網頁輔助流程</b>為核心。</p>
+        <p>「SWITCH」代表學生在不同角色觀點間轉換，化身不同角色，從多元立場理解土地使用與空間規劃議題。</p>
+        <p>活動採用「資訊漸進式揭露」設計：</p>
         <ul>
-          <li>高中生群體</li>
-          <li>一套遊戲 <b>5���10 人</b>進行，若於課堂進行可同時預備好幾套遊戲分組進行</li>
-          <li>定位為<b>高中地理＋公民科多元選修課外教材</b>，同時可作為辯論類社團的另類辯題</li>
-          <li>遊玩時間：不超過 <b>90 分鐘</b>（約兩節課）</li>
+          <li>學生先取得角色身分與地方課題。</li>
+          <li>接著逐步認識國土計畫工具的功能、尺度與應用情境。</li>
+          <li>最後透過小組討論，完成地區課題與政策工具的配對。</li>
         </ul>
 
-        <h3>策略目的</h3>
+        <h3><span class="title-ico">🗓️</span>四週八節課的配套教案 <span class="tag">課程設計</span> <span class="tag">ORID 回饋</span></h3>
+        <p>配套教案以<b>四週八節課</b>規劃，內容涵蓋：</p>
         <ul>
-          <li>促進高中生對於國土計畫相關議題的理解與參與意願，並了解<b>國土功能分區</b>在其中扮演的角色</li>
-          <li>讓高中生理解並包容，議題中許多空間權益關係人的角色與多元觀點</li>
-          <li>協助高中生在選擇科系時對於空間規劃相關科系有更進一步的理解，增進其選擇意願</li>
-          <li>以學生為著力點，以<b>家庭為單位</b>促進民眾對於國土計畫的認識與了解</li>
+          <li>國土計畫基本脈絡</li>
+          <li>國土功能分區</li>
+          <li>政策工具應用</li>
+          <li>案例專題報告</li>
+          <li>ORID 回饋設計</li>
         </ul>
+        <p>教學上，本教材避免單向講授的枯燥形式，並以趣味化的小遊戲輔助學習。</p>
+        <p>同時，也兼顧教學評量、課程內容與課堂活動，使教材能更完整地融入高中地理課程。</p>
+
+        <h3><span class="title-ico">🌱</span>我們希望培養的能力</h3>
+        <p>透過教材、教案與網頁互動的整合，本作品希望培養學生：</p>
+        <ul>
+          <li>空間規劃素養</li>
+          <li>公共議題分析能力</li>
+          <li>理解地方治理的基礎能力</li>
+          <li>未來參與公共討論與地方治理的準備</li>
+        </ul>
+        <p>《國土箱談 SWITCH》希望讓學生從角色出發，理解國土計畫不只是政策文字或分區圖，而是與生活、產業、環境和地方未來密切相關的公共議題。</p>
       </div>
       <div class="back-link" id="backInfo" style="margin-top:24px;">← 返回資訊了解</div>
     </div></div>`;
